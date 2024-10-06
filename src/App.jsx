@@ -10,8 +10,8 @@ const [result, setResult] = useState("");
       <input type="number" value={result} />
      </div>
      <div className="main-wrapper">
+ 
 
-      
 
      <div className="btn-wrapper">
       <ReactButton label={7} setResult={setResult}/>
