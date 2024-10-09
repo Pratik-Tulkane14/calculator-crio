@@ -1,31 +1,6 @@
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-.result-display{
-  margin: 20px;
-}
-.wrapper{
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.main-wrapper{
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 250px;
-}
-.btn-wrapper{
-  display: flex;
-  gap: 15px;
-}
-/* btn style */
-.btn{
-  height: 50px;
-  width: 50px;
-  border-radius: 5px;
+  margin-top: 50px;
 }
