@@ -1,0 +1,21 @@
+.display {
+    width: 220px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: right;
+    /* padding: 20px; */
+    /* font-size: 36px; */
+    box-sizing: border-box;
+  }
+  
+  .input {
+    color: #333;
+  }
+  
+  .result {
+    /* color: green; */
+    text-align: center;
+  }
+  
