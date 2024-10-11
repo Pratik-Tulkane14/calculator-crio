@@ -20,7 +20,7 @@ const App: React.FC = () => {
 
   const calculate = () => {
     if (input === '' || /[\+\-\*\/]$/.test(input)) {
-      setResult('Invalid Expression');
+      setResult('Error');
       return;
     }
 
