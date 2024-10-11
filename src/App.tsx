@@ -19,8 +19,13 @@ const App: React.FC = () => {
   };
 
   const calculate = () => {
+    if (input === '' || /[\+\-\*\/]$/.test(input)) {
+      setResult('Invalid Expression');
+      return;
+    }
+
     try {
-      setResult(eval(input)); // Use a safer alternative like math.js in production
+      setResult(eval(input));
     } catch (error) {
       setResult('Error');
     }
